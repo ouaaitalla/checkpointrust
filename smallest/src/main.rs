@@ -1,5 +1,5 @@
 pub fn smallest(h: HashMap<&str, i32>) -> i32 {
-    h.values().min().copied().unwrap_or(1)
+    h.values().min().copied().unwrap_or(0)
 }
 
 

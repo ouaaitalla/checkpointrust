@@ -1,0 +1,4 @@
+    Checking order_books v0.1.0 (/home/ouaaitalla/checkpointrust/order_books)
+error: could not compile `order_books` (bin "order_books" test) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `order_books` (bin "order_books") due to 2 previous errors

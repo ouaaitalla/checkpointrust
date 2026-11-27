@@ -10,7 +10,9 @@ pub fn remove_letter_insensitive(s: &str, letter: char) -> String {
 pub fn swap_letter_case(s: &str, letter: char) -> String {
     s.chars().map(|c| {
         if c == letter {
-            c.swapcase()
+            c.to_ascii_uppercase()
+        } else if c == letter.to_ascii_uppercase() {
+            c.to_ascii_lowercase()
         } else {
             c
         }
